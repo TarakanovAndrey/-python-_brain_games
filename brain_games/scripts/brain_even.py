@@ -1,31 +1,10 @@
 #!/usr/bin/env python3
 
 
-import prompt
-import random
-
-
-def greets():
-    print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
-    return name
-
-
-def task():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-
-
-def is_even(num):
-    if num % 2 == 0:
-        return 'yes'
-    else:
-        return 'no'
-
-
-def random_num():
-    num = random.randint(1, 1000)
-    return num
+from brain_games.library.greets import greets
+from brain_games.library.task_brain_even import task
+from brain_games.library.is_even import is_even
+from brain_games.library.random_1_1000 import random_num
 
 
 def even():
@@ -41,7 +20,7 @@ def even():
             if i == 2:
                 print(f'Congratulations, {name}')
         else:
-            print(f'"{answer}" is wrong answer ;(. Correct answer was "{right_answer}"')
+            print(f'"{answer}" is wrong answer ;(. Correct answer was "{right_answer}".')
             print(f"Let's try again, {name}!")
             break
 
@@ -49,8 +28,6 @@ def even():
 def main():
     even()
 
+
 if __name__ == '__main__':
     main()
-
-
-
