@@ -4,3 +4,6 @@
 <a href="https://codeclimate.com/github/TarakanovAndrey/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/fed6fd02e34a6134800b/maintainability" /></a>
 
 # Добро пожаловать в Brain Games!
+## Установка
+
+## Описание
