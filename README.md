@@ -5,5 +5,8 @@
 
 # Добро пожаловать в Brain Games!
 ## Установка
-
+В терминале введите следующие команды:
+<< git clone git@github.com:TarakanovAndrey/python-project-49.git
+Из директории python-project-49:
+<< make package-install
 ## Описание
