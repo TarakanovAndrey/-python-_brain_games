@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
 
-import random
 import prompt
 from brain_games.library.finding_gcd import finding_gcd
 from brain_games.library.task_brain_gcd import show_task
 from brain_games.library.greet import show_greet_and_get_name
 from brain_games.library.random_1_100 import choice_random_number
-
 
 
 def brain_gcd():
@@ -26,12 +24,12 @@ def brain_gcd():
         else:
             print(f'"{answer}" is wrong answer ;(. Correct answer was "{right_answer}".')
             print(f"Let's try again, {name}!")
-            break        
-        
-        
+            break
+
+
 def main():
     brain_gcd()
-    
-    
+
+
 if __name__ == '__main__':
     main()

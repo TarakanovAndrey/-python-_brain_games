@@ -23,11 +23,11 @@ def find_number_in_progression():
             print(f'"{answer}" is wrong answer ;(. Correct answer was "{right_answer}".')
             print(f"Let's try again, {name}!")
             break
-            
-            
+
+
 def main():
     find_number_in_progression()
-    
-    
+
+
 if __name__ == '__main__':
     main()

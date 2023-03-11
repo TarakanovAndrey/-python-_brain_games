@@ -6,6 +6,7 @@ from brain_games.library.greet import show_greet_and_get_name
 from brain_games.library.task_brain_calc import show_task
 from brain_games.library.calculation_result import calculation_result
 
+
 def brain_calculator():
     name = show_greet_and_get_name()
     show_task()
@@ -20,11 +21,11 @@ def brain_calculator():
             print(f'"{answer}" is wrong answer ;(. Correct answer was "{right_answer}".')
             print(f"Let's try again, {name}!")
             break
-            
-            
+
+
 def main():
     brain_calculator()
-    
-    
+
+
 if __name__ == '__main__':
     main()

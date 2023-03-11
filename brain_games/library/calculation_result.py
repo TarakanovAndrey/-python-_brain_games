@@ -16,4 +16,3 @@ def calculation_result():
     right_answer = action[operator_value](number_1, number_2)
     print(f'Question: {number_1} {operator_value} {number_2}')
     return right_answer
-

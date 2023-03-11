@@ -3,7 +3,6 @@ from brain_games.library.random_1_100 import choice_random_number
 from brain_games.library.random_1_10 import choice_random_number_1_10
 
 
-
 def create_progression():
     start_num = choice_random_number()
     diff = choice_random_number_1_10()
@@ -20,4 +19,3 @@ def create_progression():
         progression_for_question = progression_for_question + str(el) + ' '
 
     return [progression_for_question, choice_num]
-
