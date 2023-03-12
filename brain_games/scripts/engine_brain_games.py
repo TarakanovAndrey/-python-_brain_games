@@ -22,6 +22,6 @@ def launch_game(task, game):
                 print(f'Congratulations, {name}!')
         else:
             print(f'"{answer}" is wrong answer ;(. '
-            f'Correct answer was "{right_answer}".')
+                  f'Correct answer was "{right_answer}".')
             print(f"Let's try again, {name}!")
             break
