@@ -16,12 +16,12 @@ def launch_game(task, game):
         value_for_question, right_answer = game()
         print(f'Question: {value_for_question}')
         answer = prompt.string('Your answer: ')
-        if i == number_of_rounds - 1:
-            print(f'Congratulations, {name}!')
-        elif answer == right_answer:
+        if answer == right_answer:
             print('Correct!')
         else:
             print(f'"{answer}" is wrong answer ;(. '
                   f'Correct answer was "{right_answer}".')
             print(f"Let's try again, {name}!")
             break
+        if i == number_of_rounds - 1:
+            print(f'Congratulations, {name}!')
