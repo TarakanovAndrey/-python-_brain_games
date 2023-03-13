@@ -13,6 +13,9 @@ def launch_game(task, game):
     number_of_rounds = 3
     task()
     for i in range(number_of_rounds):
+        if i == number_of_rounds - 1:
+            print(f'Congratulations, {name}!')
+            break
         value_for_question, right_answer = game()
         print(f'Question: {value_for_question}')
         answer = prompt.string('Your answer: ')
@@ -23,5 +26,3 @@ def launch_game(task, game):
                   f'Correct answer was "{right_answer}".')
             print(f"Let's try again, {name}!")
             break
-        if i == number_of_rounds - 1:
-            print(f'Congratulations, {name}!')
