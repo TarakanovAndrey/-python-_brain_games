@@ -13,7 +13,7 @@ def launch_game(task, game):
     number_of_rounds = 3
     task()
     for i in range(number_of_rounds):
-        if i == number_of_rounds - 1:
+        if i == number_of_rounds:
             print(f'Congratulations, {name}!')
             break
         value_for_question, right_answer = game()

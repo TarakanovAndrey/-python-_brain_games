@@ -10,7 +10,7 @@ def get_random_number():
     return number
 
 
-def create_progression():
+def get_question_right_answer():
     start_num = get_random_number()
     diff = random.randint(1, 10)
     progression = [start_num]
@@ -18,16 +18,11 @@ def create_progression():
         value = start_num + diff
         progression.append(value)
         start_num = value
-    choice_num = random.choice(progression)
-    progression_for_question = ''
+    right_answer = random.choice(progression)
+    value_for_question = ''
     for num, el in enumerate(progression):
-        if el == choice_num:
+        if el == right_answer:
             el = '..'
-        progression_for_question = progression_for_question + str(el) + ' '
+        value_for_question = value_for_question + str(el) + ' '
 
-    return [progression_for_question, choice_num]
-
-
-def get_question_right_answer():
-    value_for_question, right_answer = create_progression()
-    return [value_for_question, str(right_answer)]
+    return [value_for_question, right_answer]
