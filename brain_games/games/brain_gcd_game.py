@@ -8,14 +8,13 @@ def print_task():
 def findig_gcd(num1, num2):
     max_num = max([num1, num2])
     min_num = min([num1, num2])
-    gcd = min_num // 2
     if max_num % min_num == 0:
         return min_num
-    while gcd >= 1:
-        if max_num % gcd == 0 and min_num % gcd == 0:
-            return gcd
-        else:
-            gcd -= 1
+    gcd = min_num // 2
+    result = (max_num % gcd) + (min_num % gcd)
+    while result != 0:
+        gcd -= 1
+        result = (max_num % gcd) + (min_num % gcd)
     return gcd
 
 
