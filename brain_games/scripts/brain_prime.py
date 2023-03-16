@@ -3,7 +3,7 @@
 
 from brain_games.games.brain_prime_game import get_question_right_answer as game
 from brain_games.games.brain_prime_game import print_task as task
-from brain_games.scripts.engine_brain_games import launch_game
+from brain_games.engine_brain_games import launch_game
 
 
 def brain_prime():
