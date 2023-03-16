@@ -15,26 +15,29 @@
 **Игра "Проверка на четность"**  
 Введите в терминале команду:  
 `brain-even`  
-Суть игры в следующем: вам показывается случайное число. И нужно ответить yes, если число чётное, или no — если нечётное.  
+Суть игры в следующем: вам показывается случайное число. И нужно ответить yes, если число чётное, или no — если нечётное. 
+[![asciicast](https://asciinema.org/a/8XnbwpEUsozTae8Ekh2ujvR3q.svg)](https://asciinema.org/a/8XnbwpEUsozTae8Ekh2ujvR3q)  
 
 **Игра "Калькулятор"**  
 Введите в терминале команду:  
 `brain-calc`  
 Вам показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.  
+[![asciicast](https://asciinema.org/a/itwFZamkmyqgpnpiDryLNQqZM.svg)](https://asciinema.org/a/itwFZamkmyqgpnpiDryLNQqZM)  
 
 **Игра "НОД"**  
 Введите в терминале команду:  
 `brain-gcd`  
 Суть игры в следующем: вам показывается два случайных числа, например, 25 50. Необходимо вычислить и ввести наибольший общий делитель этих чисел.  
+[![asciicast](https://asciinema.org/a/6w9MBnkrcaIzArhdEGNwKkmZy.svg)](https://asciinema.org/a/6w9MBnkrcaIzArhdEGNwKkmZy)  
 
 **Игра "Арифметическая прогрессия"**  
 Введите в терминале команду:  
 `brain-progression`  
 Суть игры в следующем: вам показывается ряд чисел, одно из которых пропущено. Необходимо определить это число и ввести его.  
+[![asciicast](https://asciinema.org/a/pNFjh6gPcBxxwPhNQVsY3m785.svg)](https://asciinema.org/a/pNFjh6gPcBxxwPhNQVsY3m785)  
 
 **Игра "Простое ли число"**  
 Введите в терминале команду:  
 `brain-prime`  
 Суть игры в следующем: вам показывается случайное число. И нужно ответить yes, если число простое, или no — если нет.  
-
-
+[![asciicast](https://asciinema.org/a/5P8q7z0YutdQzjp320umFRF2y.svg)](https://asciinema.org/a/5P8q7z0YutdQzjp320umFRF2y)  
