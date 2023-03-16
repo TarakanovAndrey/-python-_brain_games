@@ -6,14 +6,9 @@ def print_task():
     print('What is the result of the expression?')
 
 
-def choice_random_number():
-    number = random.randint(1, 100)
-    return number
-
-
 def get_question_right_answer():
-    number_1 = choice_random_number()
-    number_2 = choice_random_number()
+    number_1 = random.randint(1, 100)
+    number_2 = random.randint(1, 100)
     action = {
         "+": operator.add,
         "-": operator.sub,

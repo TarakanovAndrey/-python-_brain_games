@@ -18,14 +18,9 @@ def findig_gcd(num1, num2):
     return gcd
 
 
-def random_num():
-    num = random.randint(1, 100)
-    return num
-
-
 def get_question_right_answer():
-    num1 = random_num()
-    num2 = random_num()
+    num1 = random.randint(1, 100)
+    num2 = random.randint(1, 100)
     value_for_question = str(num1) + ' ' + str(num2)
     right_answer = findig_gcd(num1, num2)
     return [value_for_question, str(right_answer)]
