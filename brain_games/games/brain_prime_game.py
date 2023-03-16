@@ -18,4 +18,4 @@ def get_question_right_answer():
     number = random.randint(1, 100)
     value_for_question = number
     right_answer = get_right_answer(number)
-    return [value_for_question, right_answer]
+    return value_for_question, right_answer

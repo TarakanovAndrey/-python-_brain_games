@@ -15,4 +15,4 @@ def print_task():
 def get_question_right_answer():
     value_for_question = random.randint(1, 1000)
     right_answer = get_right_answer(value_for_question)
-    return [value_for_question, right_answer]
+    return value_for_question, right_answer
