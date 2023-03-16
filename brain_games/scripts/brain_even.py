@@ -2,12 +2,11 @@
 
 
 from brain_games.games.brain_even_game import get_question_right_answer as game
-from brain_games.games.brain_even_game import print_task as task
 from brain_games.engine_brain_games import launch_game
 
 
 def brain_even():
-    launch_game(task, game)
+    launch_game(game)
 
 
 def main():

@@ -1,8 +1,7 @@
 import random
 
 
-def print_task():
-    print('What number is missing in the progression?')
+TASK = 'What number is missing in the progression?'
 
 
 def get_question_right_answer():
@@ -18,4 +17,4 @@ def get_question_right_answer():
             right_answer = i
         else:
             value_for_question += str(i) + ' '
-    return value_for_question[:-1], str(right_answer)
+    return value_for_question[:-1], str(right_answer), TASK

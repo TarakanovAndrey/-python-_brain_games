@@ -32,13 +32,14 @@ def get_wrong_answer(answer, right_answer, name):
     print(f"Let's try again, {name}!")
 
 
-def launch_game(task, game):
+def launch_game(game):
     name = show_greet_and_get_name()
     number_of_rounds = 3
     count_of_rounds = 1
-    task()
+    TASK = game()[2]
+    print(TASK)
     while count_of_rounds <= number_of_rounds:
-        value_for_question, right_answer = game()
+        value_for_question, right_answer = game()[0:2]
         get_question(value_for_question)
         answer = get_answer()
         if answer == right_answer and count_of_rounds == number_of_rounds:
