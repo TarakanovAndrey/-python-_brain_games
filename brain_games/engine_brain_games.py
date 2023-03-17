@@ -1,6 +1,9 @@
 import prompt
 
 
+NUMBER_OF_ROUNDS = 3
+
+
 def show_greet_and_get_name():
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
@@ -10,15 +13,13 @@ def show_greet_and_get_name():
 
 def launch_game(game):
     name = show_greet_and_get_name()
-    number_of_rounds = 3
     count_of_rounds = 1
-    TASK = game()[2]
-    print(TASK)
-    while count_of_rounds <= number_of_rounds:
-        value_for_question, right_answer = game()[0:2]
+    print(game.TASK)
+    while count_of_rounds <= NUMBER_OF_ROUNDS:
+        value_for_question, right_answer = game.get_question_right_answer()
         print(f'Question: {value_for_question}')
         answer = prompt.string('Your answer: ')
-        if answer == right_answer and count_of_rounds == number_of_rounds:
+        if answer == right_answer and count_of_rounds == NUMBER_OF_ROUNDS:
             print('Correct!')
             print(f'Congratulations, {name}!')
             break

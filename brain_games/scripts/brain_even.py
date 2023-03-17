@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from brain_games.games.brain_even_game import get_question_right_answer as game
+from brain_games.games import brain_even_game as game
 from brain_games.engine_brain_games import launch_game
 
 
