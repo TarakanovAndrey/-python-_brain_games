@@ -16,7 +16,7 @@
 Введите в терминале команду:  
 `brain-even`  
 Суть игры в следующем: вам показывается случайное число. И нужно ответить yes, если число чётное, или no — если нечётное. 
-[![asciicast](https://asciinema.org/a/8XnbwpEUsozTae8Ekh2ujvR3q.svg)](https://asciinema.org/a/8XnbwpEUsozTae8Ekh2ujvR3q)  
+
 
 **Игра "Калькулятор"**  
 Введите в терминале команду:  
