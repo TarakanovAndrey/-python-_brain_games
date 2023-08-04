@@ -34,7 +34,7 @@
 Введите в терминале команду:  
 `brain-progression`  
 Суть игры в следующем: вам показывается ряд чисел, одно из которых пропущено. Необходимо определить это число и ввести его.  
-[![asciicast](https://asciinema.org/a/pNFjh6gPcBxxwPhNQVsY3m785.svg)](https://asciinema.org/a/pNFjh6gPcBxxwPhNQVsY3m785)  
+
 
 **Игра "Простое ли число"**  
 Введите в терминале команду:  
